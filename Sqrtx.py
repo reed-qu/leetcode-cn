@@ -35,9 +35,9 @@ THINKING = """
     f'(x_k) = 2x_k
     f(x_k) = x_k^2 - a
 4. 于是有
-        x = x_k - (x_k^2 - a) / 2x_k
-        x = (x_k^2 + a) / 2x_k
-        x = (x_k + a / x_k) / 2
+    x = x_k - (x_k^2 - a) / 2x_k
+    x = (x_k^2 + a) / 2x_k
+    x = (x_k + a / x_k) / 2
 5. 给x_k一个初始值init，比如 x_k = init = 1，开始迭代
 6. 如果x_k 与 x相差小于一个很小的数字，比如是1e-4，就可以认为x为所求的解，否则把此轮的值x作为init继续迭代，直到收敛
 """
