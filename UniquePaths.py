@@ -44,7 +44,7 @@ THINKING = """
     +---+----+----+----+----+
     | 1 |    |    |    |    |
     +---+----+----+----+----+
-    
+
 然后把空白的地方填上数字，每一个空白的格子都等于上面的格子+左边的格子
     +---+----+----+----+----+
     | 1 |  1 |  1 |  1 |  1 |
@@ -53,7 +53,7 @@ THINKING = """
     +---+----+----+----+----+
     | 1 |  2 |  5 |  9 | 14 |
     +---+----+----+----+----+
-    
+
 然后看到了有一种更数学的解法，原理也难理解
 首先机器人最终走到了右下角肯定是走了 m+n-2 步，其中m-1步往右走，n-1步往下走
 那么看有m-1步或者n-1有多少种走法就行，不允许重复，也就是组合combination的概念
@@ -67,7 +67,7 @@ import math
 
 class Solution:
     def uniquePaths(self, m: int, n: int) -> int:
-        return math.factorial(m+n-2)//(math.factorial(m-1) * math.factorial(n-1))
+        return math.factorial(m + n - 2) // (math.factorial(m - 1) * math.factorial(n - 1))
 
 
 if __name__ == '__main__':
