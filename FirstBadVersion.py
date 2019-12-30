@@ -14,7 +14,7 @@ QUESTION = """
 实现一个函数来查找第一个错误的版本。你应该尽量减少对调用 API 的次数。
 
 示例:
-给定 n = 5，并且 version = 4 是第一个错误的版本。
+给定 n = 5，并且 version = 4 是第一个错误的版本
 调用 isBadVersion(3) -> false
 调用 isBadVersion(5) -> true
 调用 isBadVersion(4) -> true
