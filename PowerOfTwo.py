@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
 # @Time    : 2019/11/17 下午4:59
-# @Title   : 231. Power of Two
+# @Title   : 231. 2的幂
 # @Link    : https://leetcode-cn.com/problems/power-of-two/
 
 
