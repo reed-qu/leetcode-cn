@@ -1,6 +1,6 @@
 ### leetcode-cn
 
-本项目是基于[leetcode-cn](leetcode-cn.com)中的代码题，写的一些简单的思路和代码
+本项目是基于[leetcode-cn](https://leetcode-cn.com/)中的代码题，写的一些简单的思路和代码
 本项目的使用语言是Python3.7
 
 
