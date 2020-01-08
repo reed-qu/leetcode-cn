@@ -1,4 +1,4 @@
-## leetcode-cn
+## LeetCode-cn
 
 ![](https://img.shields.io/badge/language-python3.7-yellow)
 ![](https://img.shields.io/badge/test-passing-green)
