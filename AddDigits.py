@@ -25,7 +25,7 @@ THINKING = """
 
 class Solution:
     def addDigits(self, num: int) -> int:
-        return num % 9
+        return 9 if num and num % 9 == 0 else num % 9
 
 
 if __name__ == '__main__':
