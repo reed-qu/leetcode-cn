@@ -1,10 +1,15 @@
 ## LeetCode-cn
 
-![](https://img.shields.io/badge/language-python3.7-yellow)
+![](https://img.shields.io/badge/language-Python3.7-yellow)
 ![](https://img.shields.io/badge/test-passing-green)
 ![](https://img.shields.io/badge/questions-100+-red)
 
 本项目是基于[leetcode-cn](https://leetcode-cn.com/)中的代码题，写的解答代码
+
+
+### 思路
+
+思路在每个`py`文件中的`THINKING`常量中，包括着重点和思考过程，结合代码也较容易理解
 
 
 ### issue
